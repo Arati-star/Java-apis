@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    username: root
+    password: AratiMc@2018
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jrtp
+   
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+    show-sql: true
+
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: arati.mandal97@gmail.com
+    password: AruMc2018
+    properties:
+     mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+    
+      

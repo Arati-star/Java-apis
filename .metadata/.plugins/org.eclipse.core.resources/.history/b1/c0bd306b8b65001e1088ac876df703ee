@@ -1,0 +1,29 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: AratiMc@2018
+    url: jdbc:mysql:///arati
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: arati.mandal97@gmail.com
+    password: AruMc2018
+    properties:
+     mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+    
+      

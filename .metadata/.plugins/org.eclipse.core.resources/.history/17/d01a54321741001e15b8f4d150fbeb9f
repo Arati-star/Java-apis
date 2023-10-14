@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:h2:mem:ashokitdb
+spring.datasource.username=ashokit
+spring.datasource.password=ashokit
+spring.datasource.driver-class-name=org.h2.driver
